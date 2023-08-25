@@ -1,0 +1,10 @@
+.card {
+  padding: 20px;
+  margin: 5px 0;
+  border-radius: 10px;
+  background-color: var(--bg-secondary);
+}
+
+.card .card-content {
+  display: block;
+}

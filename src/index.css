@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --primary: #ffffff;
+  --secondary: #464646;
+  --bg-color: #181818;
+  --bg-secondary: #292828;
+  --text-color: #bbbbbb;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/* CONTAINER */
+.container {
+  display: block;
+  padding: 10px;
+  width: 100%;
+}
+
+/* LISTS */
+.list {
+  display: grid;
+  margin: 10px;
+}
+
+.list .item {
+  display: block;
+}
+
+/* AVATAR */
+.avatar {
+  margin: 5px 0;
+}
+
+.avatar .image {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: 100%;
+}
+
+.avatar.avatar-rounded .image {
+  border-radius: 100%;
+}
+
+/* PANELS */
+.panels {
+  min-width: 16rem;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.panels .panel {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.panels .panel .content {
+  margin: 5px 0;
+  display: block;
+  border-left: 2px var(--secondary) solid;
+  padding: 5px;
+}
+
+.panels .panel .content .title {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
