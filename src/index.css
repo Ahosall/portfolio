@@ -42,6 +42,9 @@ a {
 
 .list .item {
   display: block;
+  margin: 1px 0;
+  padding: 5px 15px;
+  border-radius: 15px;
 }
 
 /* AVATAR */
@@ -60,26 +63,15 @@ a {
   border-radius: 100%;
 }
 
-/* PANELS */
-.panels {
-  min-width: 16rem;
-  font-size: 14px;
-  padding: 10px;
+.upscale-background,
+.highlight {
+  transition: background 0.25s ease-in-out;
 }
 
-.panels .panel {
-  margin-top: 3rem;
-  margin-bottom: 4rem;
+.highlight:hover {
+  background-color: var(--secondary) !important;
 }
 
-.panels .panel .content {
-  margin: 5px 0;
-  display: block;
-  border-left: 2px var(--secondary) solid;
-  padding: 5px;
-}
-
-.panels .panel .content .title {
-  font-weight: 600;
-  letter-spacing: 1px;
+.upscale-background:hover {
+  background-size: 110%;
 }

@@ -1,0 +1,23 @@
+/* PANELS */
+.panels {
+  min-width: 16rem;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.panels .panel {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.panels .panel .content {
+  margin: 5px 0;
+  display: block;
+  border-left: 2px var(--secondary) solid;
+  padding: 5px 10px;
+}
+
+.panels .panel .content .title {
+  font-weight: 600;
+  letter-spacing: 1px;
+}

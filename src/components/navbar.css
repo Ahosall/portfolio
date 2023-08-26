@@ -1,0 +1,32 @@
+.navbar {
+  padding: 1rem 20px;
+}
+
+.nav-items .nav-item .location {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item .location .location-item {
+  color: var(--secondary);
+  text-transform: capitalize;
+  margin: 0 5px;
+}
+
+.nav-item .location .location-item.enabled {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.nav-item .location .location-item:hover.enabled {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+.nav-item .location .location-sep {
+  display: flex;
+}
+
+.nav-item .location .location-sep > svg {
+  align-self: center;
+}
