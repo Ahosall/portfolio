@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+
+  color: #f0f0f0;
+  background-color: #1d1d1d;
+}
+
+.title {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.title.title-minor {
+  font-size: 22px;
+}
+
+.subtitle {
+  color: #d1d1d1;
+  margin: 5px 0;
+}
+
+.container {
+  width: 50vw;
+  margin: auto;
+}
+
+.cards,
+.icons {
+  margin: 20px 0;
+}
+
+.card {
+  position: relative;
+  width: 18em;
+  height: 7em;
+
+  margin: 10px;
+  padding: 1em;
+
+  color: #d1d1d1;
+
+  background-color: #000025;
+  border-radius: 15px;
+}
+
+.card .card-title {
+  font-weight: bold;
+}
+
+.card .card-body {
+  width: 100%;
+}
+
+.card .card-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 1em;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+i.fa {
+  margin-right: 5px;
+}

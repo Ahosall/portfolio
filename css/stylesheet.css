@@ -1,0 +1,127 @@
+/* Home Page */
+.home {
+  height: 90vh;
+  display: flex;
+}
+
+.home.gradient {
+  background: #000025;
+  background: linear-gradient(0deg, #1d1d1d 0%, #000025 70%);
+}
+
+.home .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home .container .avatar {
+  width: 300px;
+  height: 300px;
+
+  border-radius: 100%;
+
+  background-size: cover;
+  background-color: #1d1d1d;
+  background-position: center;
+}
+
+.home .container .info {
+  text-align: right;
+  margin: auto 0;
+}
+
+@media screen and (max-width: 970px) {
+  .container {
+    width: 80vw;
+  }
+
+  .home {
+    height: 80vh;
+  }
+
+  .home .container {
+    display: block;
+    justify-content: center;
+  }
+
+  .home .container .avatar {
+    width: 200px;
+    height: 200px;
+
+    margin: 0 auto;
+  }
+
+  .home .container .info {
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+
+/* Projects Page */
+.projects {
+  padding: 10px 0;
+}
+
+.projects .container .title,
+.projects .container .subtitle {
+  text-align: center;
+}
+
+.projects .container .cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects .container .cards .card {
+  cursor: pointer;
+}
+
+/* Contact */
+.contact {
+  padding: 10px 0;
+}
+
+.contact .container .title,
+.contact .container .subtitle {
+  text-align: center;
+}
+
+.contact .container .icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons .icon {
+  cursor: pointer;
+  display: flex;
+
+  width: 60px;
+  height: 60px;
+
+  margin: 0 5px;
+
+  justify-content: center;
+  align-items: center;
+
+  background: #000025;
+  border-radius: 100%;
+  font-size: 24px;
+}
+
+/* About */
+.about .container .title,
+.about .container .subtitle {
+  text-align: center;
+}
+
+.about .container .history {
+  font-weight: 300;
+  margin: 15px 0;
+}
+
+/* Footer */
+footer {
+  margin: 30px 0;
+  text-align: center;
+}
